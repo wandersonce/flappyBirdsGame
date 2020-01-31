@@ -1,7 +1,9 @@
 *{
-    box-sizing: border-box;;
+    box-sizing: border-box;
 }
-
+h1{
+    text-align: center;
+}
 @font-face{
     font-family: 'Pixel';
     src: url('../fonts/Pixel.ttf');
@@ -21,7 +23,6 @@
     position: absolute;
     width: 60px;
     left: calc(50% - 30px);
-    bottom: 50%;
 }
 .wallsPair{
     position: absolute;
@@ -53,11 +54,12 @@
     border-right: 2px solid #000;
 }
 
-.progess{
+.progress{
     position: absolute;
     top: 10px;
     right: 10px;
     font-family: Pixel;
     font-size: 70px;
     color: white;
+    z-index: 100;
 }
